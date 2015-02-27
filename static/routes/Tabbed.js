@@ -8,7 +8,8 @@ var t4 = 0;
 var t5 = 0;
 
 exports.view = function(req, res)
-{ 	var tabmatch = null;
+{	res.render('Tabbed', data);
+ 	var tabmatch = null;
 	course1= {};
 	course2 = {};
 	course3= {};
@@ -21,7 +22,7 @@ exports.view = function(req, res)
 	tab4 = {};
 	tab5= {};
 
-	res.render('Tabbed', data);
+
 	for(var i = 0; i < data.owner.length; i++)
 	{	
 	console.log("owner course " + i + ": "+ data.owner[i].course);
