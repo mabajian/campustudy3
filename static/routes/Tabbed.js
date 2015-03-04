@@ -11,11 +11,11 @@ exports.view = function(req, res)
 {	
 	var random_num = Math.random();	
 
-	if(random_num > 0.5){	
-		res.render("TabbedA", data);
-	}else{
+	// if(random_num > 0.5){	
+		// res.render("TabbedA", data);
+	// }else{
 		res.render("TabbedB", data)
-	}
+	//}
 	var tabmatch = null;
 	course1= {};
 	course2 = {};
