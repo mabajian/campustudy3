@@ -21,8 +21,8 @@
 <nav class="main-menu">
 <h1> Menu</h1>
 <hr>
-<a class = "version_B_sessions" href = "sessions" > My Sessions </a>
-<a href="settings" class="version_B_course">My Courses</a>
+<a href="settings" class="version_B_course">Manage Courses</a>
+<a class = "version_B_sessions" href = "sessions" > Manage Sessions </a>
 <a href="creditsscreen.html" class="version_B_help">Help</a>
 <a href="index.html">Log out</a>
 </nav>
@@ -39,10 +39,14 @@
 
 <div class="app-content">
 <div class="tabbed-list-view-nav">
+{{#if owner}}
 {{#each owner}}
 <a href="#" class="span-20"> {{course}}</a>
 {{/each}}
 <div class="tabbed-list-view-nav-arrow">&nbsp;</div>
+{{else}}
+<div class = "noCourses"> Plese add a course to view study session listings for other students </div>
+{{/if}}
 </div>
 
 

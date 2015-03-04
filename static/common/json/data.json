@@ -187,16 +187,7 @@
 	],
 
 	"owner":[
-    {
-        "course": "phys2a", 
-        "professor": "Monte Hames",
-        "oid": "2"
-    },
-    {
-        "course": "cogs120", 
-        "professor": "Nannette Rita",
-        "oid": "3"
-    }
+
     ],
 
 
