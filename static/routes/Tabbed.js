@@ -7,6 +7,8 @@ var t3 = 0;
 var t4 = 0;
 var t5 = 0;
 
+
+
 exports.view = function(req, res)
 {	
 	var random_num = Math.random();	
@@ -22,13 +24,6 @@ exports.view = function(req, res)
 	course3= {};
 	course4 = {};
 	course5= {};
-
-	tab1= {};
-	tab2 = {};
-	tab3= {};
-	tab4 = {};
-	tab5= {};
-
 
 	for(var i = 0; i < data.owner.length; i++)
 	{	
@@ -96,11 +91,8 @@ exports.view = function(req, res)
 		}
 
 		//tabmatch = {};
-		//console.log("-----------------");
-		//console.log(tabmatch);
-		//console.log(tabmatch);*/
+
       }
-      //console.log("else no match");
 
   	}
   	
@@ -118,6 +110,8 @@ exports.view = function(req, res)
 
 
 
+
+
 		 //console.log("Session course: "+ data.sessions[j].course);
 		 //console.log("Match to owner course: " + data.owner[i].course);
 		 //console.log("Name: " +data.sessions[j].name);
@@ -126,8 +120,6 @@ exports.view = function(req, res)
 		 console.log("professor: " +data.sessions[j].professor);
 		 courselist1.push(data.sessions[j].name);
 		 console.log("courselist1: " + courselist1);*/
-
-
 /*function sessionList(tcourse, tid, tname, tlocation, ttime, tprof)
 {
 	if (courselist1[0]== undefined || )
@@ -142,31 +134,17 @@ exports.view = function(req, res)
 	console.log("courselist 1: " + courselist1);
 	console.log("courselist 2: " + courselist2);
 	console.log("courselist1 size: " + courselist1[0]);
-
 	/*res.render('Tabb=ed',
-	{
-	'dName': data.sessions[i].name
-
-	});
-
+	{'dName': data.sessions[i].name});
 }
-
-
 /*function initializePage() 
 {
   console.log("Javascript connected!");
   console.log("friend name", $(this).text());
 }
-
-
 function findCourse(sessions)
 {
-	if(course == "cse12")
-	{
-		return course;
-	}
-	else {
-		console.log(course+ " not known for anagramming.");
-	}
+	if(course == "cse12"){return course;}
+	else {console.log(course+ " not known for anagramming.");}
 
 }*/
