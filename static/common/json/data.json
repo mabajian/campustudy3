@@ -173,17 +173,7 @@
 	],
 	
 	"mysessions":[
-    {
-        "name": "Judy White",
-        "course": "cse12", 
-        "professor": "Gaston Amsden",
-		"location": "Geisel Library",
-		"timeleft":	360,
-		"howto": "I am at 2nd floor at corner 01",
-		"GPS":0,
-		"uid":1,
-		"phone": 123456789
-	}
+
 	],
 
 	"owner":[
