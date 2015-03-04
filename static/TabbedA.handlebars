@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>CampuStudy Home</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="common/css/app.min.css">
+<script src="common/js/jQuery2.0.2.min.js"></script>
+<script src="common/js/main.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="app-wrapper">
+
+<nav class="main-menu">
+<a href="settings" class="version_A_course">Courses</a>
+<a href="creditsscreen.html" class="version_A_help">Help</a>
+<a href="index.html">Log out</a>
+</nav>
+
+<header>
+<div class="main-menu-button main-menu-button-left"><a class="menu">&nbsp;</a></div>
+<!--<div class="main-menu-button main-menu-button-mid"><a href = "creditsscreen.html"> Help </a></div>-->
+<!--<div class="main-menu-button main-menu-button-right"><a class="plus" href="settings">&nbsp;</a></div>-->
+<!--<div class="main-menu-button main-menu-button-right"> <a class="course" href = "settings">CourseS</a></div>-->
+<h1>CampuStudy</h1>
+</header>
+
+
+
+<div class="app-content">
+<div class="tabbed-list-view-nav">
+{{#each owner}}
+<a href="#" class="span-20"> {{course}}</a>
+{{/each}}
+<!-- <div class="tabbed-list-view-nav-arrow">&nbsp;</div>-->
+</div>
+
+
+
+
+<div class="detail-view-header left-thumb with-action-panel">
+    <div class="content">
+            <a href = "mapview2" class="version_A_map">&nbsp; Map </a>
+           <!-- <a href="#" class="action-map open-modal">&nbsp;</a></a>-->
+    </div><!--.content-->
+</div><!--.detail-view-header-->
+
+
+
+
+<ul class="tabbed-list-view">
+{{#if course1}}
+<li>
+    <ul class="list-view left-thumbs right-one-icons">
+    <!-- for each course with listings-->
+    {{#each course1}}
+        <li>
+            <a href="detailview1/{{sessionid}}" class="content">
+                <h2>{{name}} </h2>
+                <p>Location: {{location}}</p>
+                <p> Time left: {{timeleft}}</p>
+                <p>Professor: {{professor}}</p>
+                <div class="list-view-icons">
+                    <span class="icon-right-arrow">&nbsp;</span>
+                </div>
+            </a> 
+        </li>
+        
+    {{/each}}
+    </ul>
+</li>
+{{/if}}
+
+{{#if course2}}
+<li>
+    <ul class="list-view left-thumbs right-one-icons">
+    <!-- for each course with listings-->
+    {{#each course2}}
+        <li>
+            <a href="detailview1/{{sessionid}}" class="content">
+                <h2>{{name}} </h2>
+                <p>Location: {{location}}</p>
+                <p> Time left: {{timeleft}}</p>
+                <p>Professor: {{professor}}</p>
+                <div class="list-view-icons">
+                    <span class="icon-right-arrow">&nbsp;</span>
+                </div>
+            </a> 
+        </li>
+    {{/each}}
+    </ul>
+</li>
+{{/if}}
+
+{{#if course3}}
+<li>
+    <ul class="list-view left-thumbs right-one-icons">
+    <!-- for each course with listings-->
+    {{#each course3}}
+        <li>
+            <a href="detailview1/{{sessionid}}" class="content">
+                <h2>{{name}} </h2>
+                <p>Location: {{location}}</p>
+                <p> Time left: {{timeleft}}</p>
+                <p>Professor: {{professor}}</p>
+                <div class="list-view-icons">
+                    <span class="icon-right-arrow">&nbsp;</span>
+                </div>
+            </a> 
+        </li>
+    {{/each}}
+    </ul>
+</li>
+{{/if}}
+
+{{#if course4}}
+ <li>
+    <ul class="list-view left-thumbs right-one-icons">
+    {{#each course4}}
+        <li>
+            <a href="detailview1/{{sessionid}}" class="content">
+                <h2>{{name}} </h2>
+                <p>Location: {{location}}</p>
+                <p> Time left: {{timeleft}}</p>
+                <p>Professor: {{professor}}</p>
+                <div class="list-view-icons">
+                    <span class="icon-right-arrow">&nbsp;</span>
+                </div>
+            </a> 
+        </li>
+    {{/each}}
+    </ul>
+</li> 
+{{/if}}
+
+
+{{#if course5}}
+<li>
+    <ul class="list-view left-thumbs right-one-icons">
+    {{#each course5}}
+        <li>
+            <a href="detailview1/{{sessionid}}" class="content">
+                <h2>{{name}} </h2>
+                <p>Location: {{location}}</p>
+                <p> Time left: {{timeleft}}</p>
+                <p>Professor: {{professor}}</p>
+                <div class="list-view-icons">
+                    <span class="icon-right-arrow">&nbsp;</span>
+                </div>
+            </a> 
+        </li>
+    {{/each}}
+    </ul>
+</li>
+{{/if}}
+
+</ul><!--.tabbed-list-view-->
+    
+</div><!--#app-content-->
+
+</div><!-- app wrapper-->
+
+</div>
+
+<div class = "mysessions2">
+    <a href="sessions">
+        <div class="footer2 version_A_sessions" >My Sessions</div>
+    </a>
+</div>
+
+</body>
+</html>
