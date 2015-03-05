@@ -146,6 +146,19 @@
 		"phone": 123456789,
 		"sessionid": 8
     },
+    {
+        "name": "Sarah Brown",
+        "course": "cse170", 
+        "professor": "Gilespi",
+		"location": "Warren",
+		"timeleft":	194,
+		"howto": "near XXX",
+		"extra": "lalalala",
+		"GPS":0,
+		"uid":5,
+		"phone": 123456789,
+		"sessionid": 9
+    },
 	{
         "name": "Nikola Tesla",
         "course": "phys2a", 
@@ -156,7 +169,7 @@
 		"extra": "lalalala",
 		"GPS":0,
 		"uid":4,
-		"sessionid": 9
+		"sessionid": 10
     },
 	{
         "name": "Marie Curie",
@@ -168,7 +181,7 @@
 		"extra": "lalalala",
 		"GPS":0,
 		"uid":4,
-		"sessionid": 10
+		"sessionid": 11
     }
 	],
 	
