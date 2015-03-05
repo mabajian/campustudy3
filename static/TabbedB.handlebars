@@ -8,7 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="common/css/app.min.css">
 <script src="common/js/jQuery2.0.2.min.js"></script>
-<script src="common/js/main.min.js"></script>
+<!--<script src="common/js/main.min.js"></script>-->
+<script src="common/js/src/main.js"></script>
 
 {{> tracking_code_script}}
 
@@ -22,15 +23,16 @@
 <h1> Menu</h1>
 <hr>
 <a href="settings" class="version_B_course">Manage Courses</a>
-<a class = "version_B_sessions" href = "sessions" > Manage Sessions </a>
+<a class = "version_B_sessions" href = "#" onclick = "woopra()" > Manage Sessions </a>
 <a href="creditsscreen.html" class="version_B_help">Help</a>
 <a href="index.html">Log out</a>
+
 </nav>
 
 <header>
 <div class="main-menu-button main-menu-button-left"><a class="menu">&nbsp;</a></div>
 <!--<div class="main-menu-button main-menu-button-mid"><a href = "creditsscreen.html"> Help </a></div>-->
-<div class="main-menu-button main-menu-button-right"><a class="map2" href="mapview2" class="version_B_map">&nbsp;</a></div>
+<div class="main-menu-button main-menu-button-right"><a class="map2 version_B_map" href="mapview2" >&nbsp;</a></div>
 <!--<div class="main-menu-button main-menu-button-right"> <a class="course" href = "settings">CourseS</a></div>-->
 <h1>CampuStudy</h1>
 </header>

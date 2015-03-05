@@ -1,20 +1,23 @@
-'use strict';
+/*'use strict';
 
 $(document).ready(function() {
   initializePage();
 })
 
 function initializePage(){
-  $("a.version_B_sessions").click(funcion(){ 
+  $(".version_B_sessions").click(funcion(){ 
     woopra.track("version_B_sessions_click");
+    console.log("Sessions B click");
   })
-  $("a.version_B_course").click(funcion(){ 
+  $(".version_B_course").click(funcion(){ 
+    console.log("course B click");
     woopra.track("version_B_course"); 
   })
-  $("a.version_B_help").click(funcion(){
+  $(".version_B_help").click(funcion(){
    woopra.track("version_B_help"); 
   })
-  $("a.version_B_map").click(funcion(){ 
+  $(".version_B_map").click(funcion(){ 
     woopra.track("version_B_map"); 
   })
 }
+*/

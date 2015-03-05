@@ -76,6 +76,25 @@ var modalObj = new ModalObj();
 
 $(document).ready(function() {
 	init();
+	console.log("in ready");
+
+ $(".version_B_sessions").click(function(event){
+	woopra.track("version_B_sessions_click"); 
+})
+ $(".version_B_course").click(function(event){ 
+    console.log("course B click");
+    woopra.track("version_B_course"); 
+  })
+  $(".version_B_help").click(function(event){
+   woopra.track("version_B_help"); 
+  })
+  $(".version_B_map").click(function(event){ 
+    woopra.track("version_B_map"); 
+  });
+	/*$(".version_B_sessions").click(function(){
+   woopra.track("version_B_sessions_click"); 
+	$(".version_B_help").click(function(){
+   woopra.track("version_B_help"); */
 });
 
 $(document).on('onTemplateReady', function() {
@@ -1078,3 +1097,7 @@ ReportObj.prototype.addLineGraphSelect = function() {
 	output += "</select>";
 	$("#graph-data-select").html(output);
 }
+
+3
+
+
