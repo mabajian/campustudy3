@@ -90,7 +90,7 @@ $(document).ready(function() {
   })
   $(".version_B_map").click(function(event){ 
     woopra.track("version_B_map"); 
-  });
+  })
 	/*$(".version_B_sessions").click(function(){
    woopra.track("version_B_sessions_click"); 
 	$(".version_B_help").click(function(){
