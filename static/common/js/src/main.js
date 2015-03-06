@@ -77,7 +77,6 @@ var modalObj = new ModalObj();
 $(document).ready(function() {
 	init();
 	console.log("in ready");
-//added this
  $(".version_B_sessions").click(function(event){
 	woopra.track("version_B_sessions_click"); 
 })
