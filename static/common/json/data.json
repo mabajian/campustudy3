@@ -182,7 +182,20 @@
 		"GPS":0,
 		"uid":4,
 		"sessionid": 11
-    }
+    },
+   	{
+        "name": "Betty Brown",
+        "course": "phys160", 
+        "professor": "Gaston Amsden",
+		"location": "Geisel Library",
+		"timeleft":	360,
+		"extra": "lalalala",
+		"howto": "I am at 2nd floor at corner 01",
+		"GPS":0,
+		"uid":1,
+		"phone": 123456789,
+		"sessionid": 12
+	}
 	],
 	
 	"mysessions":[
