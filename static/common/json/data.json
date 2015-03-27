@@ -195,6 +195,32 @@
 		"uid":1,
 		"phone": 123456789,
 		"sessionid": 12
+	},
+   	{
+        "name": "Dana Friedlander",
+        "course": "phys4d", 
+        "professor": "Gaston Amsten",
+		"location": "Geisel Library",
+		"timeleft":	360,
+		"extra": "I am working on hw 5",
+		"howto": "I am at 2nd floor at corner 01",
+		"GPS":0,
+		"uid":1,
+		"phone": 123456789,
+		"sessionid": 13
+	},
+   	{
+        "name": " Tess Bellomo",
+        "course": "phys4d", 
+        "professor": "Richard Branson",
+		"location": "Geisel Library",
+		"timeleft":	360,
+		"extra": "I am working on lab 4",
+		"howto": "I am at 1st floor at corner east",
+		"GPS":0,
+		"uid":1,
+		"phone": 123456789,
+		"sessionid": 14
 	}
 	],
 	
